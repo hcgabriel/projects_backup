@@ -1,0 +1,27 @@
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+
+import NavBar from './views/components/NavBar';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#e3e3e3',
+    minHeight: '99vh',
+    maxHeight: '99vh',
+  },
+}));
+
+const App = () => {
+  const classes = useStyles();
+
+  return (
+    <div className={classes.root}>
+      <NavBar />
+    </div>
+  );
+}
+
+export default App;

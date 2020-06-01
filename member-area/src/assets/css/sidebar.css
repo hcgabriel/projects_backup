@@ -1,0 +1,102 @@
+.sidebar-box {
+  background-image: linear-gradient(to bottom right, #171b37e6, #e50051e6);
+  width: 100%;
+  height: 100vh;
+  max-width: 202px;
+  padding: 1.5rem;
+  /* padding-left: 1.5rem; */
+  /* padding-right: 1.5rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-header {
+  /* height: 10%; */
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-body {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar-bottom {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid #ffffff33;
+}
+
+.sidebar-title {
+  font-size: 10px;
+  color: #ffffff66;
+  margin-bottom: 20px;
+}
+
+.sidebar-menu {}
+
+.sidebar-menu-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #ffffffb3;
+}
+
+.sidebar-menu-item:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.sidebar-menu-item-icon-selected {
+  margin-right: 5px;
+  color: #FFF;
+  font-size: 15px;
+  /* font-family: 'Cerebri Sans'; */
+}
+
+.sidebar-menu-item-title-selected {
+  margin-left: 5px;
+  color: #FFF;
+  font-size: 15px;
+  /* font-family: 'Cerebri Sans'; */
+}
+
+.sidebar-menu-item-icon {
+  margin-right: 5px;
+  font-size: 15px;
+  /* font-family: 'Cerebri Sans'; */
+}
+
+.sidebar-menu-item-title {
+  margin-left: 5px;
+  font-size: 15px;
+  /* font-family: 'Cerebri Sans'; */
+}
+
+.sidebar-profile-image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.sidebar-bottom-icon {
+  width: 20px;
+  height: 20px;
+  color: #ffffffe6;
+}
